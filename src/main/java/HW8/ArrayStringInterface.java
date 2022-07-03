@@ -1,7 +1,6 @@
 package HW8;
 
 public interface ArrayStringInterface {
-
     boolean add(String value);
     boolean add(int index, String value);
     boolean delete(String value);
