@@ -20,7 +20,7 @@ public class StreamService {
 
     }
 
-    public Collection<String> findByLengthAndCase(Collection<String> words){
+    public Collection<String> findByLengthAndCase(Collection<String> words) {
         Predicate<String> isLowerCase = s -> s.equals(s.toLowerCase());
         Predicate<String> isLengthFour = s -> s.length() == 4;
 
